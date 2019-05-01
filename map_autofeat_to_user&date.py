@@ -8,9 +8,9 @@ import numpy as np
 # features_path, orig_split_path, and cv_split_path
 
 fold = 0
-features_path = '/home/bl41/Projects/scalableh/models/encoders/LR+0.01|BS+100|OPT+adam|GC+5|NOI+0.05|LAT+12|SR+8HZ|UNSUPV|LocaGausAutoencoderWithBnSR+well+mse+dcorr+/f%d/auto_features_corr_ep9.npy'%fold
-orig_split_path = '/home/bl41/Projects/scalableh/data/indx-semi_sort_normdata_swwb-udep-seed_42-intersect.json'
-cv_split_path = '/home/bl41/Projects/scalableh/data/indx-semi_sort_normdata_swwb_v2-udep-seed_42-intersect.json'
+features_path = '/home/bl41/Projects/scalableh/models/encoders/LR+0.01|BS+100|OPT+adam|GC+5|NOI+0.05|LAT+8|SR+1HZ|UNSUPV|LocaGausAutoencoderWithBnSR+well+mse+scrn+/f%d/auto_features_corr_ep11.npy'%fold
+orig_split_path = '/home/bl41/Projects/scalableh/data/indx-semi_sort_normdata_swwb_scrn-udep-seed_42-intersect.json'
+cv_split_path = '/home/bl41/Projects/scalableh/data/indx-semi_sort_normdata_swwb_scrn_v2-udep-seed_42-intersect.json'
 
 '''
 Structure of the resulted organized_features:
